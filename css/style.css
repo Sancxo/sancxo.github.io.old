@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Shadows+Into+Light&display=swap');
+
+@media screen and (max-width: 600px) {
+  .menu .links,
+  .menu .home {float: none;}
+  .tete, .corps, .pied {width: 100%; float: none;}
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+
+  background: White;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+li {
+  display: inline;
+  text-align: center;
+
+  margin : auto 10px;
+  width: auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ff6f00;
+
+  margin: 0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+h6 {
+  font-size: 1px;
+  font-weight: lighter;
+}
+
+.header, .corps, .pied {
+  width: 100%;
+}
+
+/* En-tête */
+
+.header {
+  background: Chartreuse;
+  margin: 3% auto 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.logo {
+  margin: 0 20% 0 20%;
+  padding: auto;
+
+  font-family: 'Shadows into Light', cursive;
+  font-style: italic;
+}
+.logo:hover {
+  color: HotPink;
+}
+.logo p {
+  font-size: 50px;
+  transform: rotate(-8deg);
+  margin: 0 auto;
+}
+
+
+/* Corps */
+.corps {
+  padding: 0 25% 50px 25%;
+}
+.contenu {
+  text-align: center;
+}
+
+.portrait {
+  float: right;
+}
+.portrait img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+.portrait img:hover {
+  transform: rotate(-45deg);
+  box-shadow: 0 5px 5px 0 #ff6f00;
+}
+
+.cv li {
+  display: list-item;
+  list-style: upper-roman;
+}
+.cv li, .cv h2 {
+  text-align: justify;
+  margin : 15px auto;
+}
+.cv-part li, .formation li, .skills li {
+  margin: 15px 0 15px 25px;
+}
+.cv-part li {
+  list-style: square;
+}
+.formation li {
+  list-style: circle;
+}
+.skills li {
+  list-style: disc;
+}
+
+.menu-video li {
+  display: inline;
+}
+.video {
+  margin: 0 auto;
+}
+.films-cat {
+  font-size: 25px;
+  text-align: left;
+}
+.film-prez {
+  text-align: justify;
+}
+.films {
+  text-align: center;
+}
+
+.constance-pic {
+  width: 100%;
+}

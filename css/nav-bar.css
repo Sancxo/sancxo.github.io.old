@@ -1,0 +1,44 @@
+.nav-bar {
+  background: Chartreuse;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.1em;
+  box-shadow: 0 2px 5px 0 Orange, 0px 2px 10px 0 Orange;
+
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+}
+.menu {
+  font-size: 20px;
+  vertical-align: top;
+}
+.menu {
+  text-transform: uppercase;
+
+  margin: 0 50px 0 25px;
+  padding: 0;
+}
+.home {
+  float: left;
+}
+.links {
+  float: right;
+}
+.menu a {
+  border-radius: 10px 0 10px 0;
+  display: block;
+  padding: 5px 10px;
+}
+.menu a:hover, .active {
+  color: Chartreuse;
+  font-weight: bold;
+}
+.menu a:hover:not(.active) {
+  background: #ff6f00;
+  transform: rotate(180deg);
+}
+.active {
+  background: Orange;
+  text-shadow: -1px 0 HotPink, 0 -1px HotPink, 1px 0 HotPink, 0 1px HotPink;
+}
